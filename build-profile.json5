@@ -1,0 +1,55 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "D:/ohms/myapp.p12",
+          "storePassword": "00000018F6C7B9C99EE53F957BA24EE756A7F3A83039562E207AFB0673D2CDB9E85B75B9C7D87231",
+          "keyAlias": "myapp",
+          "keyPassword": "000000183B34D798030814BDDE5A7C404287E251541B5E8CA564D66665DB8811C59B1CF32B4BA767",
+          "signAlg": "SHA256withECDSA",
+          "profile": "D:/ohms/myappDebug.p7b",
+          "certpath": "D:/ohms/myapp.cer"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.4(16)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

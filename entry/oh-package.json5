@@ -1,0 +1,14 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@hw-agconnect/auth-ohos": "^1.1.2",
+    "@hw-agconnect/api-ohos": "^1.1.2",
+    "@hw-agconnect/core-ohos": "^1.1.2"
+  }
+}
+

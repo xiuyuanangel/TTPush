@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "TT推送"
+    },
+    {
+      "name": "internet_permission",
+      "value": "用于访问网络，获取在线数据"
+    },
+    {
+      "name": "background_permission",
+      "value": "用于保持应用在后台运行，接收推送消息"
+    },
+    {
+      "name": "notification_permission",
+      "value": "用于显示通知，提醒用户重要信息"
+    }
+  ]
+}
